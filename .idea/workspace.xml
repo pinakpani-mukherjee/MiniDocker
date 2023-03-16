@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d16e493-dc0d-47a6-9a4e-3ff45ab7c947" name="Changes" comment="refactored base model">
+    <list default="true" id="4d16e493-dc0d-47a6-9a4e-3ff45ab7c947" name="Changes" comment="added CI">
+      <change afterPath="$PROJECT_DIR$/server/src/main/scala/miniDocker/Executor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/miniDocker/model.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/miniDocker/model.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1678978132999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added CI">
+      <created>1678980430781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678980430781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup project" />
     <MESSAGE value="added modules" />
     <MESSAGE value="refactored base model" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored base model" />
+    <MESSAGE value="added CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
