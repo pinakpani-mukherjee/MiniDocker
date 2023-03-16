@@ -1,9 +1,8 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
-
+ThisBuild / versionScheme := Some("early-semver")
 ThisBuild / scalaVersion := "3.2.0"
+ThisBuild / githubWorkflowPublishTargetBranches := Seq()
 
 val commonSettings = Seq(
-  scalaVersion := "3.2.0",
   scalacOptions-="-Xsource:3.1",
   //scalacOptions -="-Xfatal-warnings"
   libraryDependencies ++= Seq(
@@ -21,6 +20,7 @@ lazy val client = project.settings(commonSettings).dependsOn(shared)
 lazy val root = (project in file("."))
   .settings(
     name := "MiniDocker",
-    publish := {}
+    publish := {},
+    publish / skip := true
   )
   .aggregate(server,client,shared)
